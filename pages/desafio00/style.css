@@ -1,0 +1,56 @@
+main {
+    border: 2px solid black;
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 20px;
+}
+
+/* SECTION 1 */
+main > section:nth-child(1){
+    border: 2px solid black;
+    max-width: 100%;
+    width: 350px;
+    height: 500px;
+    flex: 1 1 300px;
+}
+/* SECTION 2 */
+main > section:nth-child(2){
+    border: 2px solid black;
+    max-width: 100%;
+    width: 350px;
+    height: 490px;
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+}
+
+/* FILHOS DA SECTION 2 */
+/* div 1 */
+main > section:nth-child(2) > div:nth-child(1) {
+    border: 2px solid black;
+    width: 90%;
+    height: 30%;
+}
+/* div 2 */
+main > section:nth-child(2) > div:nth-child(2) {
+    border: 2px solid black;
+    width: 90%;
+    height: 50%;
+}
+
+/* SECTION 3 */
+main > section:nth-child(3){
+    border: 2px solid black;
+    max-width: 100%;
+    flex: 1 1 150px;
+    width: 250px;
+    height: 480px;
+}

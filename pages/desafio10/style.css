@@ -1,0 +1,31 @@
+main {
+    border: 2px solid black;
+    width: 75vw;
+    min-height: 500px;
+    padding: 10px;
+}
+
+main > section {
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px 200px;
+}
+
+main > section > div:nth-child(1) {
+    border: 2px solid black;
+    height: 80px;
+    width: 200px;
+    max-width: 100%;
+    flex: 1 1 150px;
+}
+
+main > section > div:nth-child(2) {
+    border: 2px solid black;
+    height: 80px;
+    width: 600px;
+    max-width: 100%;
+    flex: 1 1 350px;
+}
